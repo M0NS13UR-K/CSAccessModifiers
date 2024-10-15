@@ -1,0 +1,14 @@
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/bin/Debug/net8.0/CSAccessModifiers
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/bin/Debug/net8.0/CSAccessModifiers.deps.json
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/bin/Debug/net8.0/CSAccessModifiers.runtimeconfig.json
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/bin/Debug/net8.0/CSAccessModifiers.dll
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/bin/Debug/net8.0/CSAccessModifiers.pdb
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.AssemblyInfoInputs.cache
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.AssemblyInfo.cs
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.csproj.CoreCompileInputs.cache
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.dll
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/refint/CSAccessModifiers.dll
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.pdb
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.genruntimeconfig.cache
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/ref/CSAccessModifiers.dll
