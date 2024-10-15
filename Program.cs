@@ -1,48 +1,68 @@
-﻿
-namespace CSAccessModifiers
+﻿using System;
+
+namespace AccessModifiersExample
 {
-    public class Animal //Base class
+    // Base class (Parent)
+    public class Animal
     {
-        public string Name { set; get;}
+        // public: Accessible from anywhere
+        public string Name { get; set; }
+
+        // private: Accessible only within this class
         private int age;
-        protected string Species{ get; set;}
-        internal string Habitat {get; set;}
-        protected internal string FoodType {get; set;}
-        public Animal(string name, int age, string species, string habitat, string foodtype)
+
+        // protected: Accessible within this class and derived classes
+        protected string Species { get; set; }
+
+        // internal: Accessible within this assembly (the current project)
+        internal string Habitat { get; set; }
+
+        // protected internal: Accessible within this assembly and by derived classes
+        protected internal string FoodType { get; set; }
+
+        public Animal(string name, int age, string species, string habitat, string foodType)
         {
             Name = name;
             this.age = age;
             Species = species;
             Habitat = habitat;
-            FoodType = foodtype;
+            FoodType = foodType;
         }
 
+        // Public method: Accessible from anywhere
         public void DisplayInfo()
         {
-            Console.WriteLine($"Animal : {Name}, Species: {Species}, Habitat : {Habitat}, Age : {age}, FoodType : {FoodType}");
+            Console.WriteLine($"Animal: {Name}, Species: {Species}, Age: {age}, Habitat: {Habitat}, Food: {FoodType}");
         }
 
+        // Private method: Only accessible within this class
         private void DisplayAge()
         {
-            Console.WriteLine($"The age of the animal is {age}");
+            Console.WriteLine($"The animal is {age} years old.");
         }
 
+        // Public method to call the private method within the class
         public void ShowAge()
         {
-            DisplayAge();
+            DisplayAge(); // Can access the private method here
         }
     }
 
+    // Derived class (Child)
     public class Dog : Animal
     {
-        public Dog(string name, int age, string habitat) : base(name, age, "Dog", habitat, "Carnivore")
-        {}
+        public Dog(string name, int age, string habitat)
+            : base(name, age, "Dog", habitat, "Carnivore")
+        {
+        }
+
         public void DisplaySpeciesAndFood()
         {
             // Access protected and protected internal properties from the parent class
             Console.WriteLine($"This is a {Species} and it eats {FoodType}.");
         }
     }
+
     class Program
     {
         static void Main(string[] args)
