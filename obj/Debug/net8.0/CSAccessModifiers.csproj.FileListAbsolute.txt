@@ -12,3 +12,4 @@
 /Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.pdb
 /Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.genruntimeconfig.cache
 /Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/ref/CSAccessModifiers.dll
+/Users/krishna_chitta/gitportfolio/csharp/CSAccessModifiers/obj/Debug/net8.0/CSAccessModifiers.sourcelink.json
